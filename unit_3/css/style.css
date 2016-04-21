@@ -1,0 +1,13 @@
+*,
+*:before,
+*:after {
+	margin:0;
+	padding:0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(../images/20160326_151249.jpg);
+	background-size: cover;
+}
