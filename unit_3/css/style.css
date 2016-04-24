@@ -14,3 +14,6 @@ body {
 	background-image: url(../images/20160326_151249.jpg);
 	background-size: cover;
 }
+hr {
+	width: 200px;
+}
