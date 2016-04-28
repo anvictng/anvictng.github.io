@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
 /*min font size is 16px 1em=16px*/
 *,
 *:before,
@@ -38,7 +39,7 @@ body {
 }
 
 .navlinks {
-	font-family: 'Allerta', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	color: #fff;
 	padding: 0 32 px;
 	text-transform: uppercase;
