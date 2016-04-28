@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+/*min font size is 16px 1em=16px*/
+*,
+*:before,
+*:after {
+	margin:0;
+	padding:0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 16px;
+	background-color:#000;
+	background-image: url(../images/tndkklvnxeoprzcusexl.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: #000;
+}
+
+#logo {
+	height: 30%;
+	width: 30%;
+}
+
+#little {
+	padding-top: 2%;
+	padding-bottom: .5%;
+	font-size: 150%;
+}
+#slogan {
+	font-weight:bold;
+	border-bottom: 1px solid white;
+	width: 200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.navlinks {
+	font-family: 'Oxygen', sans-serif;
+	color: #fff;
+	padding: 0 32 px;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: 1px;
+	/*why isn't this working*/
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.25em;
+}
+
+section {
+	text-align: center;
+	padding-left: 20%;
+	font-size: 1em;
+	width: 30em;
+	margin: 1em auto;
+	/*I want this to be in the center with a text-width of 30em, why is it so weird?*/
+}
+
+/*aside {
+	float: right;
+}*/
+
+
+footer {
+	background-color: #cccccc;
+	padding: 10px;
+	text-align: center;
+}
