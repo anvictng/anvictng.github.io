@@ -47,10 +47,13 @@ p {
 
 section {
 	text-align: center;
-	padding-left: 20%;
+/*	padding-left: 20%;*/
 	font-size: 1em;
-	width: 30em;
-	margin: 1em auto;
+/*	margin: 1em auto;*/
+}
+
+h2 {
+	padding: 1px auto;
 }
 
 /*aside {
@@ -76,11 +79,56 @@ section {
 }
 
 .adventures {
-	background-image: url(../images/yos_clouds.jpg);
+	background-color: #fff;
+	/*background-image: url(../images/yos_clouds.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	padding: 500px 0;
+	color: #000;
+}
+
+.inner-containter {
+
+}
+
+.advhead {
+
+}
+
+.category {
+
+}
+
+.title {
+	border-bottom: 4 px solid black;
+	display: inline-block;
+	/*not working?*/
+
+}
+
+.meta {
+
+}
+
+.excerpt {
+
+}
+
+.featured-image {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	/*padding: 20px 0;*/
+
+
+}
+
+.read-more {
+
+}
+
+.read-more-btn {
+
 }
 
 /*#lander {
@@ -89,6 +137,7 @@ section {
 #logo {
 	height: 75%;
 	width: 75%;
+	margin: 0 auto;
 }
 
 #little {
