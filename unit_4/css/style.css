@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Allerta);
-@font-face{ 
+/*@font-face{ 
 	font-family: 'bellota';
-	src: url('bellota.eot');
-	src: url('bellota.eot?iefix') format('eot'),
-	     url('bellota.woff') format('woff'),
-	     url('bellota.ttf') format('truetype'),
-	     url('bellota.svg#webfont') format('svg');
-}
+	src: url('web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.eot');
+	src: url('web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.eot?iefix') format('eot'),
+	     url('web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.woff') format('woff'),
+	     url('web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.ttf') format('truetype'),
+	     url('web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.svg#webfont') format('svg');
+}*/
 /*min font size is 16px 1em=16px*/
 *,
 *:before,
@@ -26,9 +26,9 @@ body {
 	color: #FFF;
 }
 
-nav {
-	margin: auto;
-}
+/*nav {
+	margin: 0 auto;
+}*/
 
 header {
 	text-align: center;
@@ -54,6 +54,21 @@ section {
 
 h2 {
 	padding: 1px auto;
+	/*why isn't this working?*/
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left:0;
+	background-color: black;
+}
+
+img {
+	display: block;
+	width: 100%;
+	max-width: 100;
 }
 
 /*aside {
@@ -68,7 +83,7 @@ h2 {
 
 .navlinks {
 	text-align: center;
-	font-family: 'bellota', 'Allerta', sans-serif;
+	font-family: 'Allerta', sans-serif;
 	color: #fff;
 	font-size: .75em;
 	padding: 20px;
@@ -84,7 +99,7 @@ h2 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;*/
-	padding: 500px 0;
+	padding: 6em;
 	color: #000;
 }
 
@@ -119,6 +134,7 @@ h2 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	padding: 1em 10em;
 
 
 }
