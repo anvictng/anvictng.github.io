@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css" charset="utf-8">
+	<title>With A</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<!-- insert favicon, metatag here -->
+</head>
+<body>
+	<div id="lander">	
+		<nav>
+			<a class="navlinks" href="#">Home</a>
+			<a class="navlinks" href="adventures.html">Adventures</a>
+			<a class="navlinks" href="#">Food</a>
+			<a class="navlinks" href="#">Projects</a>
+			<a class="navlinks" href="#">Thoughts</a>
+		</nav>
+		<div id="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<header>
+			<img id="logo" src="images/ANVS_logo.png">
+		</header>
+	</div>
+
+	<main>
+		<section class="adventures">
+			<div class="inner-container">
+				<div class="advposts">
+					<div class="advhead">
+							<div class="category">
+								<a href="adventures.html">Adventures</a>
+							</div>
+							<article id="JFKLAX">
+								<h2>
+									<a href="adventures.html">JFK&#9992;LAX</a>
+								</h2>
+								<div class="excerpt">
+									<p>Escape the Big Apple: A weekend getaway to Joshua Tree NP, Yosemite NP, &#38; Los Angeles.</p>
+								</div>	
+								<div class="featured-image">
+									<img src="images/yos_clouds.jpg">
+								</div>
+								<div class="read-more">
+									<a class="read-more-btn" href="adventures.html">Continue Reading</a>
+								</div>
+							</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section class="profile">
+			<h2 id="little">Little by little, one travels far.</h1>
+			<h3 id="slogan">ANNA SUNG</h2>
+			<p> Hi! Here, I hope to share with you my adventures through travels, food, projects, and some of my thoughts. Hope you enjoy!
+		</section> -->
+	</main>
+	<!-- <footer>
+		<p><a href="mailto:anvictng@udel.edu">Contact Me!</a></p>
+		<p><a href="#">Go to Top</a></p>
+	</footer>
+ -->
+
+
+<script>
+ // when the html is ready
+$(document).ready(function() {
+	//when hamburger is clicked
+	$("#hamburger").click(function() {
+		//the nav slides in height
+		$("nav").slideToggle();
+	});
+});
+</script>
+</body>
+</html>

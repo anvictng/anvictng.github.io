@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css?family=Allerta);
+/*@font-face{ 
+	font-family: 'bellota';
+	src: url('web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.eot');
+	src: url('web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.eot?iefix') format('eot'),
+	     url('web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.woff') format('woff'),
+	     url('web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.ttf') format('truetype'),
+	     url('web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.svg#webfont') format('svg');
+}*/
+/*min font size is 16px 1em=16px*/
+*,
+*:before,
+*:after {
+	margin:0;
+	padding:0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	background-color: #000;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #FFF;
+}
+
+/*nav {
+	margin: 0 auto;
+}*/
+
+header {
+	text-align: center;
+	padding:0 200px;
+}
+
+main {
+	padding:50px 0;
+}
+
+
+p {
+	font-size: 1em;
+	line-height: 1.25em;
+}
+
+section {
+	text-align: center;
+/*	padding-left: 20%;*/
+	font-size: 1em;
+/*	margin: 1em auto;*/
+}
+
+h2 {
+	padding: 1px auto;
+	/*why isn't this working?*/
+}
+
+nav {
+	width: 100%;
+	top: 0;
+	left:0;
+	background-color: black;
+	position: fixed;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 100;
+}
+
+/*aside {
+	float: right;
+}*/
+
+/*footer {
+	background-color: #cccccc;
+	padding: 10px;
+	text-align: center;
+}*/
+
+.navlinks {
+	text-align: center;
+	font-family: 'Allerta', sans-serif;
+	color: #fff;
+	font-size: .75em;
+	padding: 20px;
+	margin: 0 20px;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+
+.adventures {
+	background-color: #fff;
+	/*background-image: url(../images/yos_clouds.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	padding: 6em;
+	color: #000;
+}
+
+.inner-containter {
+
+}
+
+.advhead {
+
+}
+
+.category {
+
+}
+
+.title {
+	border-bottom: 4 px solid black;
+	display: inline-block;
+	/*not working?*/
+
+}
+
+.meta {
+
+}
+
+.excerpt {
+
+}
+
+.featured-image {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 1em 10em;
+
+
+}
+
+.read-more {
+
+}
+
+.read-more-btn {
+
+}
+
+/*#lander {
+}*/
+
+#logo {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#little {
+	padding-top: 2%;
+	padding-bottom: .5%;
+	font-size: 150%;
+}
+#slogan {
+	font-weight:bold;
+	border-bottom: 1px solid white;
+	width: 200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#hamburger {
+	display: none;
+	height: 30px;
+	width: 34px;
+}
+
+#hamburger span {
+	display: block;
+	width: 100%;
+	height: 3px;
+	background-color: white;
+	margin-top: 8px;
+}
+
+#lander {
+	position: relative;
+}
+
+@media screen and (max-width: 768px) {
+	nav {
+		display: none; 
+	}
+	#hamburger {
+		display: block;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 9;
+	}
+	.navlinks {
+		width: 100%;
+		float: none;
+		display: block;
+	}
+}
+
+
+
